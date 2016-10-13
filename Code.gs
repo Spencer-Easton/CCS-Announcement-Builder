@@ -10,7 +10,7 @@ function renderEvents(events){
   var body = doc.getBody();   
   body.clear();
   var style = {};
-  style[DocumentApp.Attribute.FONT_SIZE] = 32;   
+  style[DocumentApp.Attribute.FONT_SIZE] = 32;  
   
   var title = body.appendParagraph("Upcoming Events");
   title.setAttributes(style)
